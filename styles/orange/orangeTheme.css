@@ -1,0 +1,59 @@
+body
+{
+    background-color: #000;
+}
+
+.wrapper
+{
+    background-color: #222;
+}
+
+.cssbar
+{
+    background-color: #000;
+}
+
+.cssbar a:hover:not(.active) {
+	background-color: #f60;
+}
+
+nav .active {
+	background-color: #f60;
+}
+
+nav
+{
+    background-color: #000;
+}
+
+nav a:hover:not(.active) {
+	background-color: #e50;
+}
+
+p
+{
+    color: #aaa;
+}
+
+h1
+{
+    color: #aaa;
+}
+
+h2
+{
+    color: #aaa;
+}
+
+h3
+{
+    color: #aaa;
+}
+.wrapper a
+{
+    color: #aaa;
+}
+div
+{
+    color: #aaa;
+}

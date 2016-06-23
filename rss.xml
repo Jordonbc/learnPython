@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?> 
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?> 
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:blogger="http://schemas.google.com/blogger/2008" xmlns:georss="http://www.georss.org/georss" xmlns:gd="http://schemas.google.com/g/2005" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0"> 
+<channel> 
+<atom:id>tag:blogger.com,1999:blog-7775348217465700602</atom:id> 
+<lastBuildDate>Mon, 29 Feb 2016 10:06:14 +0000</lastBuildDate> 
+<title>Jordon's IT Blog</title> 
+<description /> 
+<link>http://jordonit.blogspot.com/</link> 
+<managingEditor>noreply@blogger.com (Jordon Brooks)</managingEditor> 
+<generator>Blogger</generator> 
+<openSearch:totalResults>1</openSearch:totalResults> 
+<openSearch:startIndex>1</openSearch:startIndex> 
+<openSearch:itemsPerPage>25</openSearch:itemsPerPage> 
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/JordonsItBlog" /> 
+<feedburner:info uri="jordonsitblog" /> 
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /> 
+<feedburner:browserFriendly /> 
+<item> 
+<guid isPermaLink="false">tag:blogger.com,1999:blog-7775348217465700602.post-2565903095749465828</guid> 
+<pubDate>Mon, 29 Feb 2016 09:46:00 +0000</pubDate> 
+<atom:updated>2016-02-29T09:46:51.483+00:00</atom:updated> 
+<title /> 
+<description>test</description> 
+<link>http://jordonit.blogspot.com/2016/02/blog-post.html</link> 
+<author>noreply@blogger.com (Jordon Brooks)</author> 
+<thr:total>0</thr:total> 
+</item> 
+</channel> 
+</rss> 

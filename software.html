@@ -1,0 +1,142 @@
+<!DOCTYPE html> <!-- Defines the document type to HTML 5 -->
+<html> <!-- Sets the page to HTML 5 for compatibility with browsers -->
+	<head> <!-- Defines the Header of the page -->
+		<title>Jordon's Website - Software</title> <!-- Sets the title of the page -->
+		<meta charset="UTF-8"> <!-- Sets the character set used the the website -->
+
+		<!-- Cascading Style sheets for the website -->		
+		
+		<link rel="stylesheet" type="text/css" href="main.css" media="screen and (min-width: 1000px)">
+		<link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width: 999px)">
+		
+		<!-- For the user Themes -->		
+		
+		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' media="screen and (min-width: 1336px)">
+		<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css' media="screen and (min-width: 1336px)">
+		
+		<link rel="alternate stylesheet" type="text/css" href="styles/dark/darkTheme.css" title="dark"> <!-- Dark Theme -->
+		<link rel="alternate stylesheet" type="text/css" href="styles/orange/orangeTheme.css" title="orange"> <!-- Orange Theme -->
+		
+		<script type="text/javascript" src="scripts/styleSwitcher.js"></script> <!-- JavaScript for the CSS Changer -->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> <!-- View-port -->
+	</head> <!-- Closes the header -->
+	<body> <!-- Defines the content of the page -->
+		<div align="center"> <!-- Center's the Navigation bar -->
+			<div class="topbar"> <!-- Defines the Top bar -->
+					<nav> <!-- The HTML 5 Navigation tags -->
+						<img src="images/title/logo.png" alt="My logo" width="60" height="60"/> <!-- Puts the logo on the website -->
+						
+						<!-- Links to most used webpages -->						
+												
+						<a href="index.html">Home</a>
+						<a class="active" href="software.html">Software</a>
+						<a href="hardware.html">Hardware</a>
+						<a href="cv.html">CV</a>
+						<a href="about.html">About</a>
+						<a href="links.html">Links</a>
+						<a href="sitemap.html">Sitemap</a>
+						
+						<a href="help.html" style="float: right;">Help</a>
+					</nav> <!-- End of navigation -->
+				</div> <!-- End of topbar -->
+				<div class="cssbar"> <!-- Defines CSS bar -->
+                        <a href="#" onclick="setActiveStyleSheet('default')">Default</a> <!-- Changes to default css -->
+						<a href="#" onclick="setActiveStyleSheet('dark')">Dark</a> <!-- Sets to dark CSS -->
+						<a href="#" onclick="setActiveStyleSheet('orange')">Orange</a> <!-- Sets to Orange CSS -->
+				</div> <!-- End of CSS bar -->
+				
+			<!-- START OF Wrapper -->			
+			
+			<div class="wrapper" width="device-width">
+				<content> <!-- Tells the browser that this is content -->
+					<article>
+							<h1>My Software</h1> <!-- The webpage headline -->
+							<br>
+							<h1>Introducing</h1> <!-- For new things that I recently add -->
+							
+							<h3 id="job">Jordon's Online Browser</h3> <!-- The software title -->
+							<!-- Image of software -->
+							<img class="large" src="images/images/webBrowser.png" alt="Jordon's Online Browser" longdesc="This is my own Web browser I made using webkit and python 3"/>
+							<!-- Description of software -->							
+							<p>Jordon's Online Browser is a web browser that uses webkit and python 3. The web browser is still in development and will be
+							a part of Jordon's Desktop Environment.</p>
+							
+							<!-- Download the software -->
+							<a class="download" href="files/download/Jordon's Online Browser.zip" target="_blank">Download Now!</a>
+							
+							<!-- Requirements needed for the software -->
+							<div align="center" class="requirements">
+							<ul> <!-- Unordered list -->
+								<h4>Requirements</h4> <!-- title -->
+								
+								<li>Python 3</li>
+								<li>Python PyQt4</li>
+								<li>Python requests</li>
+								<li>Python pickle</li>
+								<li>Python gi</li>
+							</ul> <!-- End of list -->
+							</div> <!-- end of Requirements div -->
+							
+							<!-- Glass OS -->							
+							
+							<h3 id="glassos">Glass OS</h3> <!-- Glass OS Title -->
+							<!-- Description of Glass OS -->
+							<p>Glass OS is my most updated program. Its basically a software overlay that goes over the current operation system such Microsoft Windows or Linux.
+							It can be ran in full-screen more or it can run in windowed mode by pressing "ESC". Glass OS is a Graphical user interface that allows the user to customise their user interface.
+                            Glass OS currently uses over 2,000 lines of python code and I will continue to develop it for the next few years.</p>
+							<p style="text-align: left;">Here's a video that I made that shows off Glass OS:</p>
+							<!-- Emmbedded youtube video -->
+							<iframe src="https://www.youtube.com/embed/TG1wW_1cYe8?rel=0" frameborder="0" allowfullscreen></iframe>
+							<br> <!-- Line Break -->
+							<!-- Download Link for Glass OS -->
+							<a class="download" href="https://github.com/Jordonbc/GlassOS.git" target="_blank">The repository link</a>
+							
+							<!-- Jpad Title -->
+							<h3 id="jpad">Jpad</h3>
+							<!-- Jpad Description -->
+							<p>Jpad is a text editor like notepad or notepad++. It is designed to give you quick access to tools easily without loosing any functionality.
+							It is included in Jordon OS, Glass OS and JDE and allows you to edit a wide range of files.</p>
+							<!-- Jpad Image -->							
+							<img class="image" src="images/images/jpad.JPG" width="device-width" alt="Jpad image"/>
+							<!--<a class="download" href="files/download/" target="_blank">Download Now!</a>-->
+							
+							<!-- Jordon OS Title -->
+							<h3 id="jordonos">Jordon OS</h3>
+							<!-- JordonOS Description -->							
+							<p>Jordon OS is an older version of Glass OS that is a command line interface. It has some the same functionality as Glass OS but is less user-friendly as it uses the command line interface.</p>
+							<p>Here's the video:</p>
+							<!-- HTML 5 Video with controls -->							
+							<video controls>
+								<source src="files/videos/jordonOS_V3_8.mp4" type="video/mp4">
+								Your browser does not support this video! <!-- This will be shown if you are using an old browser -->
+							</video> <!-- End of HTML 5 video -->
+							<br> <!-- Line Break -->
+							<!-- Download Jordon OS -->
+							<a class="download" href="files/download/jordonOS.zip" target="_blank">Download Jordon OS v2</a>
+							<br> <!-- Line Break -->
+							<br> <!-- Line Break -->
+							<a class="download" href="files/download/jordonOS.pdf" target="_blank">Download the User Manual for Jordon OS v2</a>
+							
+							<br> <!-- Line Break -->
+							<br> <!-- Line Break -->
+							<h3 id="currencyconverter">Currency Converter</h3> <!-- Currency Converter Title -->
+							<!-- Currency Converter Image -->
+							<img class="image" src="images/images/currencyConverter.PNG" style="border: 1px black solid" width="device-width" alt="This is the currency converter that I made"/>
+							<!-- Currency Converter Image -->
+							<p>Currency Converter is a program that is used to convert currency from one to another.</p>
+							
+							<img src="images/images/curencyConverterCode.PNG" style="width: 75%;" alt="This is the currency converter that I made"/>
+							<p>This is my Visual Basic Code.</p>
+							<a class="download" href="files/download/Currency ConverterPy.zip" target="_blank">Download Currency Converter Python</a>
+							<a class="download" href="files/download/Currency ConverterVBA.zip" target="_blank">Download Currency Converter VBA</a>
+							<a class="download" href="files/download/currency CalculatorCpp.zip" target="_blank">Download Currency Converter C++ Source</a>
+						</article>
+				</content>
+			</div>
+			<br>
+			<br>
+			<br>
+		</div>
+	</body>
+</html>

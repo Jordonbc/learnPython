@@ -1,0 +1,102 @@
+<!DOCTYPE HTML> <!-- Sets the document type to HTML 5 -->
+<html> <!-- Defines HTML code, for browser compatibility -->
+	<head> <!-- Defines the header of the website -->
+		
+		<meta name="author" content="Jordon" >
+		<meta name="description" content="Jordon Brooks">
+		<meta name="keywords" content="Jordon, Brooks, Jordon's, Software, jordonbc's, Website, GlassOS, Glass, OS,
+		Jpad, Open, Source, web, browser">		
+		
+		<title>Jordon's Website - Home</title> <!-- Sets the title of the website-->
+		
+		<meta charset="UTF-8"> <!-- Sets the character set used by the website -->
+		
+		<!-- Links the Cascading style sheets to the website -->
+		
+		<link rel="stylesheet" type="text/css" href="main.css" media="screen and (min-width: 1000px)">
+		<link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width: 999px)">
+		
+		<!-- Google Fonts -->
+		
+		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' media="screen and (min-width: 1336px)">
+		<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css' media="screen and (min-width: 1336px)">
+		
+		<!-- Links alternative style sheets so that the user can choose their own -->
+        
+		<link rel="alternate stylesheet" type="text/css" href="styles/dark/darkTheme.css" title="dark">
+		<link rel="alternate stylesheet" type="text/css" href="styles/orange/orangeTheme.css" title="orange">
+
+		<!-- JavaScript for switching Cascading style sheet -->
+		
+		<script type="text/javascript" src="scripts/styleSwitcher.js"></script>
+		
+		<!-- View-port, sets the default zoom level and makes it not scalable on smartphones -->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	</head> <!-- Closes the header -->
+	
+	<!-- Defines the Body of the website (the content you can see) -->
+	
+	<body>
+        <div align="center"> <!-- Centre's the header -->
+			<div class="topbar"> <!-- defines the top-bar -->
+					<nav> <!-- Defines HTML 5 Navigation -->
+                        <!-- Displays the website logo -->
+						<img src="images/title/logo.png" alt="My logo" width="60" height="60"/>
+						
+						<!-- Links to Most used webpages -->
+						
+						<a class="active" href="index.html">Home</a>
+						<a href="software.html">Software</a>
+						<a href="hardware.html">Hardware</a>
+						<a href="cv.html">CV</a>
+						<a href="about.html">About</a>
+						<a href="links.html">Links</a>
+						<a href="sitemap.html">Sitemap</a>
+							
+						<a href="help.html" style="float: right;">Help</a>
+					</nav> <!-- Closes the HTML 5 navigation tag -->
+				</div> <!-- Closes the Top-bar -->
+				
+				<!-- Defines the CSS Bar -->
+				
+				<div class="cssbar">
+						<!-- Links the Alternative CSS -->
+                  <a href="#" class="left" onclick="setActiveStyleSheet('default')">Default</a>
+						<a href="#" class="left" onclick="setActiveStyleSheet('dark')">Dark</a>
+						<a href="#" class="left" onclick="setActiveStyleSheet('orange')">Orange</a>
+				</div> <!-- Closes the CSS bar -->
+				
+			<!-- Defines wrapper -->
+			
+			<div class="wrapper">
+				<content> <!-- Another HTML5 tag that allows for Reading View -->
+						
+						<h1>Latest Blog</h1> <!-- Latest Blog title  for http://jordonIT.blogspot.co.uk -->
+						
+						<!-- The script That does all the magic -->
+						<script src="http://feeds.feedburner.com/JordonsItBlog?format=sigpro" type="text/javascript" ></script>
+						
+						<article> <!-- Defines an article -->
+						<h2>Welcome to Jordon's Website!</h2> <!-- The title of the website -->
+							<p><img class="meImage" src="images/images/me.png" alt="This is a picture of me."/> <!-- A picture of me -->
+							This website has programs that I have made, all my achievements, hardware and software videos and tips and more.</p>						
+							<p>Hello my name is Jordon, I like computers and I am good at programming. I have even developed this website through code.
+							I know quite a lot about programming, I know how to code in: Python, HTML, CSS, VBA, JavaScript, C# and I am currently learning to code in C++ by watching this <a href="https://www.youtube.com/watch?v=tvC1WCdV1XU&list=PLAE85DE8440AA6B83&index=1" target="_blank">series</a>.</p>
+							<p>This website is also going to improve my skills as I am also coding it. At the moment the website has my programs
+							that I have made in the past. On this website I also have my life story and what I did in the past to make me good on computers</p>
+							
+							<!-- Some space for the CSS bar -->
+							
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+						</article> <!-- Closes the article -->
+				</content>
+			</div>
+			<br>
+			<br>
+			<br>
+        </div>
+	</body>
+</html>

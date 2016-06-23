@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jordon's Website - Help</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="main.css" media="screen and (min-width: 1000px)">
+		<link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width: 999px)">
+		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' media="screen and (min-width: 1336px)">
+		<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css' media="screen and (min-width: 1336px)">
+		
+		<link rel="alternate stylesheet" type="text/css" href="styles/dark/darkTheme.css" title="dark">
+		<link rel="alternate stylesheet" type="text/css" href="styles/orange/orangeTheme.css" title="orange">
+		
+		<script type="text/javascript" src="scripts/styleSwitcher.js"></script>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	</head>
+	<body>
+		<div align="center">
+			<div class="topbar">
+					<nav>
+						<img src="images/title/logo.png" alt="My logo" width="60" height="60"/>
+						<a href="index.html">Home</a>
+						<a href="software.html">Software</a>
+						<a href="hardware.html">Hardware</a>
+						<a href="cv.html">CV</a>
+						<a href="about.html">About</a>
+						<a href="links.html">Links</a>
+						<a href="sitemap.html">Sitemap</a>
+							
+						<a class="active" href="help.html" style="float: right;">Help</a>
+					</nav>
+				</div>
+				<div class="cssbar">
+                        <a href="#" onclick="setActiveStyleSheet('default')">Default</a>
+						<a href="#" onclick="setActiveStyleSheet('dark')">Dark</a>
+						<a href="#" onclick="setActiveStyleSheet('orange')">Orange</a>
+				</div>
+			<div class="wrapper" width="device-width">
+				<content>
+					<aside>
+						<h1>Help</h1>
+					</aside>
+					<form method="get" action="http://www.google.com/search">
+						<div style="border:1px solid black;padding:4px;width:212px;">
+							<table border="0" cellpadding="0">
+							<tr><td>
+								<input type="text"   name="q" size="25"
+								maxlength="255" value="" />
+								<input type="submit" value="Google Search" /></td></tr>
+							<tr><td align="center" style="font-size:75%">
+								<input type="checkbox"  name="sitesearch"
+								value="jordonbc.github.io" checked /> Search Jordon's Website only<br />
+							</td></tr></table>
+						</div>
+					</form>
+				</content>
+			</div>
+		</div>
+	</body>
+</html>

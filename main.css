@@ -1,0 +1,186 @@
+h1 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 27px;
+}
+h3 {
+    font-size: 22px;
+}
+h4 {
+    font-size: 18px;
+}
+body {
+	float: none;
+	background-color: #0af;
+	width: 99%;
+   height: 99%;
+   margin: auto;
+}
+
+iframe {
+	width: 75%;
+    height: 360px;
+}
+
+video {
+	width: 75%;
+}
+.large {
+	width: 75%;
+	}
+	
+.meImage {
+    width: 25%;
+    float: right;
+}
+.image {
+	width: 50%;
+}
+.download {
+	display: inline-block;
+	background-color: #070;
+	color: #fff;
+	margin: auto;
+	padding: 5px;
+	border:2px black solid;
+	width: 200px;
+}
+.download:hover {
+	background-color: #0a0;
+}
+
+.wrapper {
+	font-family: 'Titillium Web', sans-serif;
+	float: none;
+	margin-left:auto;
+	margin-right:auto;
+	width: 80%;
+    height: 150%;
+	border:1px black solid;
+	background: #ffffff;
+	padding-bottom: 15px;
+}
+
+nav {
+	display: inline-block;
+	list-style-type: none;
+	margin-left:auto;
+	margin-right:auto;
+    overflow: hidden;
+    background-color: #191;
+	width: 80%;
+}
+nav img {
+	float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+nav a {
+	font-family: 'PT Sans Narrow', sans-serif;
+	float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 21px 16px;
+    text-decoration: none;
+}
+nav a:hover:not(.active) {
+	background-color: #0a0;
+}
+nav .active {
+	background-color: #0b0;
+}
+
+p {
+	width: 90%;
+	text-align: left;
+}
+li {
+	width: 90%;
+	text-align: left;
+}
+
+p:hover .secret {
+	display: inherit;
+	width: 100px;
+}
+p .secret {
+	display: none;
+	width: 100px;
+}
+
+
+
+
+.cssbar {
+	display: inline-block;
+	list-style-type: none;
+	margin-left:auto;
+	margin-right:auto;
+    overflow: hidden;
+    background-color: #191;
+    width: 100%;
+}
+.cssbar img {
+	float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+.cssbar a {
+	font-family: 'PT Sans Narrow', sans-serif;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 21px 16px;
+    text-decoration: none;
+}
+
+.cssbar .left {
+    float: left;
+}
+
+.cssbar .right {
+    float: right;
+}
+
+.cssbar a:hover:not(.active) {
+	background-color: #0a0;
+}
+.cssbar .active {
+	background-color: #0b0;
+}
+
+
+.cssbar {
+	display: inline-block;
+	list-style-type: none;
+	margin-left:auto;
+	margin-right:auto;
+    overflow: hidden;
+    background-color: #191;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.cssbar a {
+	font-family: 'PT Sans Narrow', sans-serif;
+	float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.cssbar a:hover:not(.active) {
+	background-color: #0a0;
+}
+.cssbar a .active {
+	background-color: #0b0;
+}
