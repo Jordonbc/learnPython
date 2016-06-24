@@ -7,11 +7,15 @@
 		<meta name="keywords" content="Jordon, Brooks, Jordon's, Software, jordonbc's, Website, GlassOS, Glass, OS,
 		Jpad, Open, Source, web, browser">		
 		
-		<title>Jordon's Website - Home</title> <!-- Sets the title of the website-->
+		<title>Jordon's Website - Learn Python 3</title> <!-- Sets the title of the website-->
 		
 		<meta charset="UTF-8"> <!-- Sets the character set used by the website -->
 		
 		<!-- Links the Cascading style sheets to the website -->
+        
+        <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/google/code-prettify/master/styles/sons-of-obsidian.css">
 		
 		<link rel="stylesheet" type="text/css" href="main.css" media="screen and (min-width: 1000px)">
 		<link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width: 999px)">
@@ -46,7 +50,8 @@
 						
 						<!-- Links to Most used webpages -->
 						
-						<a class="active" href="index.html">Home</a>
+						<a class="active" href="index.html">Python</a>
+                        <!--
 						<a href="software.html">Software</a>
 						<a href="hardware.html">Hardware</a>
 						<a href="cv.html">CV</a>
@@ -55,6 +60,7 @@
 						<a href="sitemap.html">Sitemap</a>
 							
 						<a href="help.html" style="float: right;">Help</a>
+-->
 					</nav> <!-- Closes the HTML 5 navigation tag -->
 				</div> <!-- Closes the Top-bar -->
 				
@@ -71,26 +77,88 @@
 			
 			<div class="wrapper">
 				<content> <!-- Another HTML5 tag that allows for Reading View -->
-						
-						<h1>Latest Blog</h1> <!-- Latest Blog title  for http://jordonIT.blogspot.co.uk -->
-						
-						<!-- The script That does all the magic -->
-						<script src="http://feeds.feedburner.com/JordonsItBlog?format=sigpro" type="text/javascript" ></script>
-						
-						<article> <!-- Defines an article -->
-						<h2>Welcome to Jordon's Website!</h2> <!-- The title of the website -->
-							<p><img class="meImage" src="images/images/me.png" alt="This is a picture of me."/> <!-- A picture of me -->
-							This website has programs that I have made, all my achievements, hardware and software videos and tips and more.</p>						
-							<p>Hello my name is Jordon, I like computers and I am good at programming. I have even developed this website through code.
-							I know quite a lot about programming, I know how to code in: Python, HTML, CSS, VBA, JavaScript, C# and I am currently learning to code in C++ by watching this <a href="https://www.youtube.com/watch?v=tvC1WCdV1XU&list=PLAE85DE8440AA6B83&index=1" target="_blank">series</a>.</p>
-							<p>This website is also going to improve my skills as I am also coding it. At the moment the website has my programs
-							that I have made in the past. On this website I also have my life story and what I did in the past to make me good on computers</p>
-							
-							<!-- Some space for the CSS bar -->
-							
-							<p>&nbsp;</p>
-							<p>&nbsp;</p>
-							<p>&nbsp;</p>
+                    <article>
+                        <h1>Learning Python</h1>
+                        
+                        <h4>Difficulty: Low</h4>
+                        
+                        <h2 id="lesson-0">Lesson 0: Introduction</h2>
+                        
+                        <h3>Why might you want to learn Python?</h3>
+                        <p>Well Python has a wide range of applications ranging from science, games and just about anything and it is the easiest computer language to learn.</p>
+                        
+                        <h3>How much will it take to learn Python?</h3>
+                        
+                        <p>Well, Python is what is known as  a very high level programming language. This means that Python is more towards human language rather than machine language.</p>
+                        
+                        <h2 id="lesson-1">Lesson 1: Installing</h2>
+                        
+                        <p>First you will need to go over to <a href="https://www.python.org/" target="_blank">python.org</a> and download Python 3.</p>
+                        
+                        <p>After you have downloaded Python 3 you will need to use an adminisrator account and install Python.</p>
+                        
+                        <p>Once the install is complete, Python is installed.</p>
+                        
+                        <figure id="fig-1">
+                            <img src="images/images/python3Install.png"/>
+                            <figcaption>Fig1. - Python 3 Install - static.configserverfirewall.com</figcaption>
+                        </figure>
+                        
+                        <p>Secondly we need an <abbr title="Integrated Development Environment">IDE</abbr></abbr> This is an advanced piece of siftware that has lots of tools for programmers in one small text editor.</p>
+                
+                        
+                        <figure id="fig-2">
+                            <img src="images/images/Pycharm.jpg"/>
+                            <figcaption>Fig2. - Pycharm by Jetbrains - jetbrains.com</figcaption>
+                        </figure>
+                
+                
+                        <h2 id="lesson-2">Lesson 2: Hello World!</h2>
+                
+                        <p>
+                            The most simple program to write is the <q>Hello World!</q> program.
+                            
+                            This program will just output <q>Hello World!</q> To the screen.
+                        </p>
+                        
+                        <!-- language: lang-or-tag-here -->
+                        
+<pre class="prettyprint linenums"><code class="lang-py">print("Hello World!")</code></pre>
+                        
+                        <br>
+                        <p>Output:</p>
+                        
+<pre class="prettyprint lang-html"><code>Hello World!
+>>> </code></pre>
+                        
+                        <h2 id="lesson-3">Lesson: 3 - variables</h2>
+                        
+                        <p>
+                            Now lets learn about variables.
+                            Strings are basically text.
+                            Integers are <strong>whole</strong> numbers.
+                            Floats are numbers that have <strong>decimal</strong> places.
+                        </p>
+                
+<pre class="prettyprint linenums"><code class="prettyprint lang-py">myString = "This is a string"
+myInteger = 5
+myFloat = 3.141592654
+
+print(myString)
+print(myInteger)
+print(myFloat)</code></pre>
+                        
+                        <br>
+                        <p>Output:</p>
+                        
+<pre class="prettyprint lang-html"><code>This is a string
+5
+3.141592654
+>>> </code></pre>
+                        <!-- Some space for the CSS bar -->	
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
 						</article> <!-- Closes the article -->
 				</content>
 			</div>

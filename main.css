@@ -34,6 +34,30 @@ video {
     width: 25%;
     float: right;
 }
+figure {
+    margin: auto;
+    padding-bottom: 10px;
+    background-color: #111;
+    text-align: center;
+    width: 85%;
+}
+figure img {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    width: 90%;
+}
+
+pre {
+    width: 60%;
+    margin: auto;
+    padding: auto;
+    text-align: left;
+}
+code {
+    font-size: 14pt;
+}
+
 .image {
 	width: 50%;
 }

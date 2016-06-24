@@ -83,6 +83,33 @@ li {
 .large {
 	width: 75%;
 }
+figure {
+    margin: auto;
+    padding-bottom: 10px;
+    background-color: #111;
+    text-align: center;
+    width: 85%;
+}
+figure img {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    width: 90%;
+}
+
+pre {
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    text-align: left;
+    margin: auto;
+}
+
+code {
+    font-size: 12pt;
+    margin: auto;
+}
+
 .image {
 	width: 75%;
 	max-width: 250px;
