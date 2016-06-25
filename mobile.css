@@ -29,6 +29,8 @@ video {
 	background: #ffffff;
 	padding-bottom: 15px;
     position: relative;
+    word-break: break-all;
+    word-wrap: break-word;
 }
 
 nav {
@@ -103,11 +105,14 @@ pre {
     padding: auto;
     text-align: left;
     margin: auto;
+    word-break: break-all;
+    word-wrap: break-word;
 }
 
 code {
     font-size: 12pt;
     margin: auto;
+    word-wrap: break-word;
 }
 
 .image {
